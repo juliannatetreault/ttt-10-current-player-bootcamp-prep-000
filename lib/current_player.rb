@@ -1,8 +1,8 @@
 def turn_count(board)
   counter = 0
 board.each do |character|
-  if character <= 9
-  counter += 1
+  if character == "X" || "O"
+  character += 1
 end
 end
 
