@@ -5,6 +5,7 @@ board.each do |turn|
   while counter <= 9
   counter += 1
 end
+end
 
 def current_player(board)
   
@@ -12,4 +13,5 @@ def current_player(board)
     return "X"
   else 
     return "O"
+end
 end
