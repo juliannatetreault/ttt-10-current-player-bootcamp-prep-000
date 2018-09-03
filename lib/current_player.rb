@@ -5,6 +5,8 @@ board.each do |character|
   counter += 1
 end
 end
+return turn
+end
 
 def current_player(board)
   
