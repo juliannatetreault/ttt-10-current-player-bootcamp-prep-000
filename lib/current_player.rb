@@ -1,5 +1,5 @@
 def turn_count(board)
-  counter = 0
+  turn = 0
 board.each do |character|
   if character == "X" || "O"
   counter += 1
